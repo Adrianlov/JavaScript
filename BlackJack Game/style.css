@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    background-image: url(images/poker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+ 
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.dealer{
+    border: 1px solid white;
+    width: 720px;
+    background-color: black;
+    border-radius: 26px;
+    
+}
+
+.all{
+    background-color: rgb(255, 255, 255);
+    transition: 350ms ease;
+    border-radius: 240px;
+    width: 720px;
+}
+
+
+#message-el{
+    font-size: 3.5em;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+#word{
+    top: -156px;
+    position: relative;
+    height: 2vh;
+    width: 60vw;
+    font-size: 9em;
+    color: white;
+    border-bottom: 2px solid white;
+    
+}
+
+p{
+    font-size: 5em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.btns{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 20px;
+}
+
+
+#button-el{
+    height: 70px;
+    width: 224px;
+    font-size: 1.8em;
+    font-weight: 800;
+    background: goldenrod;
+    border-radius: 15px;
+    color: #fff;
+}
+
+#newCard-el{
+    margin-top: 12px;
+    height: 70px;
+    width: 224px;
+    font-size: 1.8em;
+    font-weight: 800;
+    background: goldenrod;
+    border-radius: 15px;
+    color: #fff;
+    
+
+}
+
+#button-el:hover{
+    background-color: #3e8e41
+}
+
+#button-el:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+#newCard-el:hover{
+    background-color: #3e8e41
+}
+
+#newCard-el:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
